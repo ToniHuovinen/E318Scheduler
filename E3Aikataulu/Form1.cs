@@ -83,22 +83,26 @@ namespace E3Aikataulu
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Ubisoft ubi = new Ubisoft();
+            ubi.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Sony sony = new Sony();
+            sony.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Microsoft ms = new Microsoft();
+            ms.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Bethesda bth = new Bethesda();
+            bth.Show();
         }
     }
 }
