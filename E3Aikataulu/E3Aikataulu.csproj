@@ -84,11 +84,17 @@
     <Compile Include="Ubisoft.Designer.cs">
       <DependentUpon>Ubisoft.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bethesda.resx">
+      <DependentUpon>Bethesda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EAPanel.resx">
       <DependentUpon>EAPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft.resx">
+      <DependentUpon>Microsoft.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,6 +105,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sony.resx">
+      <DependentUpon>Sony.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubisoft.resx">
+      <DependentUpon>Ubisoft.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

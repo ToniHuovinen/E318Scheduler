@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -45,8 +47,6 @@
             this.closeBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -73,6 +73,31 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(182, 553);
             this.panel1.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Red;
+            this.panel9.Location = new System.Drawing.Point(168, 394);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(14, 67);
+            this.panel9.TabIndex = 9;
+            this.panel9.Visible = false;
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 394);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(182, 67);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Bethesda";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.MouseEnter += new System.EventHandler(this.button5_MouseEnter);
+            this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
             // 
             // panel8
             // 
@@ -243,36 +268,11 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(199, 109);
+            this.pictureBox1.Location = new System.Drawing.Point(182, 100);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(971, 432);
+            this.pictureBox1.Size = new System.Drawing.Size(1000, 453);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Red;
-            this.panel9.Location = new System.Drawing.Point(168, 394);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(14, 67);
-            this.panel9.TabIndex = 9;
-            this.panel9.Visible = false;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 394);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(182, 67);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Bethesda";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button5.MouseEnter += new System.EventHandler(this.button5_MouseEnter);
-            this.button5.MouseLeave += new System.EventHandler(this.button5_MouseLeave);
             // 
             // Form1
             // 
